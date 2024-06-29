@@ -1,0 +1,51 @@
+@media only screen and (max-width: 991px) {
+
+    /* navbar Search icon  */
+    .phone-navbar{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .big-navbar{
+        display: block;
+    }
+
+    /* Styles for phones */
+    .hero-text {
+        background-position: right;
+        color: white !important;
+    }
+
+    .hero-text>h1 {
+        font-weight: 700 !important;
+        font-size: 9vw !important;
+    }
+
+    .feature-card {
+        margin: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1483px) {
+
+    /* navbar search icon ki width  */
+
+    .footer-row-1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-newsletter{
+        display: none;
+    }
+    
+    .container{
+        padding: 0rem 1rem;
+    }
+
+    .search-box:hover input,
+    .input.focused {
+        width: 200px;
+        background: #ffffff;
+        border-radius: 20px;
+    }
+}
